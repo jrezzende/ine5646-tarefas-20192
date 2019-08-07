@@ -18,7 +18,7 @@ class Pessoa {
   }
 }
 
-/**
+/** 
  * Seleciona as pessoas cuja idade é maior que a idadeLimite.
  * @param [Pessoa] pessoas
  * @param number idadeLimite

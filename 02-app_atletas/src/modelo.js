@@ -34,8 +34,7 @@ class Equipe {
   }
 
   encontreAtletasComAlturmaMinima (alturaMinima) {
-    //FIXME
-    return this.__atletas
+    return this.__atletas.filter(a => a.altura >= alturaMinima)
   }
 }
 
