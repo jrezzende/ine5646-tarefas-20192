@@ -24,9 +24,9 @@ class Pessoa {
  * @param number idadeLimite
  * @returns [Pessoa]
  */
-function selecionaPessoas (pessoas, idadeLimite) {
+function selecionaPessoas (pessoas, idadeMinima) {
   //FIXME
-  return pessoas
+  return pessoas.filter(p => p.idade > idadeMinima)
 }
 
 // Dados fictícios
